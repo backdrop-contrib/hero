@@ -1,0 +1,19 @@
+.hero-layouts .container, .hero-layouts .container-fluid {
+  display: flex;
+  width: 100%;
+}
+.hero-layouts .block-hero {
+  min-height: 45vh;
+}
+
+.hero-layouts .l-header {
+  margin: 0;
+}
+
+.hero-layouts .row {
+  margin: 0;
+}
+
+.hero-layouts .l-header-inner.container, .hero-layouts .l-header-inner.container-fluid {
+  flex-direction: column;
+}
