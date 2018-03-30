@@ -5,6 +5,7 @@ backdrop = 1.x
 
 ; Specify regions for this layout.
 regions[header]     = Header
+regions[nav]        = Nav
 regions[hero]       = Hero
 regions[top]        = Top
 regions[content]    = Content
@@ -30,7 +31,8 @@ preview = simmons-hero.png
 libraries[] = bootstrap4-gs
 
 ; Include file for special preprocessing of this layout's variables.
-file = simmons.php
+file = simmons_hero.php
 
 ; Default stylesheets for this layout
 stylesheets[all][] = ../hero-layouts.css
+
