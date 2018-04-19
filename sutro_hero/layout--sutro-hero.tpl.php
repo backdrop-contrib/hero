@@ -96,6 +96,14 @@
       </div>
     <?php endif; ?>
 
+    <?php if (!empty($content['content'])): ?>
+      <div class="l-content">
+        <div class="container container-fluid row">
+          <?php print $content['content']; ?>
+        </div>
+      </div>
+    <?php endif; ?>
+
     <div class="l-middle l-halves row">
       <div class="container container-fluid row">
         <div class="l-halves-region col-md-6">
